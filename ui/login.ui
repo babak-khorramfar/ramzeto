@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>LoginForm</class>
+    <widget class="QWidget" name="LoginForm">
+        <property name="windowTitle">
+            <string>ورود به رمزتو</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QLabel" name="label_title">
+                    <property name="text">
+                        <string>🔐 به رمزتو خوش آمدید</string>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+                    <property name="styleSheet">
+                        <string>font-size: 18px; font-weight: bold;</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="lineEdit_password">
+                    <property name="placeholderText">
+                        <string>رمز عبور اصلی را وارد کنید...</string>
+                    </property>
+                    <property name="echoMode">
+                        <enum>QLineEdit::Password</enum>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="btn_login">
+                    <property name="text">
+                        <string>ورود</string>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources />
+    <connections />
+</ui>
